@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Bolt" representedClassName="Bolt" parentEntity="Collection" syncable="YES">
+        <attribute name="allenWrenchSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aluminumDrillSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="aluminumDrillSizeDecimal" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="clearanceHoleNormalFit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clearanceHoleNormalFitDecimal" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="clearanceHoleTightFit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clearanceHoleTightFitDecimal" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ipadMiniNonRetinaPoints" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ipadMiniRetinaPoints" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ipadNonRetinaPoints" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ipadRetinaPoints" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="iphoneNonRetinaPoints" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="iphoneRetinaPoints" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="largeOrSmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="minorDiameter" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secondaryAllenWrenchSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secondarySocketWrenchSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Double" defaultValueString="0.0" indexed="YES" syncable="YES"/>
+        <attribute name="sizeEquivalent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sizeInInches" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="sizeInMilimeters" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="socketWrenchSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="steelDrillSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="steelDrillSizeDecimal" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="threadsPerInch" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="threadType" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="collection" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Collection" inverseName="bolts" inverseEntity="Collection" syncable="YES"/>
+    </entity>
+    <entity name="Collection" representedClassName="Collection" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" minValueString="0" syncable="YES"/>
+        <relationship name="bolts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Bolt" inverseName="collection" inverseEntity="Bolt" syncable="YES"/>
+    </entity>
+    <entity name="DrillBit" representedClassName="DrillBit" syncable="YES">
+        <attribute name="inches" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ipadMiniNonRetinaPoints" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ipadMiniRetinaPoints" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ipadNonRetinaPoints" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ipadRetinaPoints" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="iphoneNonRetinaPoints" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="iphoneRetinaPoints" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="millimeters" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bolt" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Collection" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="DrillBit" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WBTermsViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ytr-cP-iak">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <attributedString key="attributedText">
+                        <fragment>
+                            <string key="content">ACCEPTANCE OF CONTRACT TERMS: Brytework Apps provides certain information to you when you visit bryteworkapps.com or use Brytework’s mobile applications. By purchasing products or using any of the other Services, you agree that you have read, understood and agree to be bound by all of the provisions set forth herein, all of which constitute a single agreement between you and Brytework Apps (collectively, the "Terms and Conditions"). The Terms and Conditions constitute the exclusive agreement between you and Brytework with respect to the Services and the content accessed through the Services ( the "Content"). To the extent of any conflict between the Terms and Conditions and the end user license agreement for a mobile application, the Terms and Conditions shall govern. Our failure to assert a right or insist upon compliance with any term or condition shall not constitute a waiver of that right or excuse any subsequent noncompliance. If any provision of the Terms and Conditions is deemed unlawful, void or for any reason unenforceable, then that provision shall be deemed severable from the remaining terms and shall not affect the validity and enforceability of any remaining provisions.
+EFFECTIVE DATE AND CHANGES IN TERMS: The Terms and Conditions are effective as of the version date set forth at the end of the Terms and Conditions. We reserve the right to change the Terms and Conditions at any time by providing notice to you, and your use after any change signifies your acceptance of the changed terms. That notice may be given by making a revision to the Terms and Conditions and changing the version date shown below.
+LIMITED PRODUCT WARRANTY: The content provided by the mobile application WONDERBOLT is the most accurate currently available for fasteners of specified types. Brytework Apps does not represent that the fasteners referenced within WONDERBOLT meet government or consensual specifications. Additionally, Brytework Apps makes no warranty of fitness for any particular use or purpose or any other warranty, expressed or implied. ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR PURPOSE, ARE DISCLAIMED. Some states do not allow exclusions or limitations of implied warranties, so the foregoing limitation may not apply to you and you may have additional rights.
+OTHER PROVISIONS: THE SERVICES AND THE CONTENT ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. YOU HAVE THE SOLE RESPONSIBILITY FOR THE FITNESS OF FASTENERS USED IN A PARTICULAR APPLICATION. YOU AGREE TO HOLD BRYTEWORK HARMLESS FROM, AND YOU COVENANT NOT TO SUE BRYTEWORK FOR ANY CLAIMS BASED ON USE OF THE SERVICES OR THE CONTENT.
+ LIMITATION OF LIABILITY AND REMEDY:
+UNDER NO CIRCUMSTANCES SHALL BRYTEWORK BE LIABLE IN CONTRACT, WARRANTY, TORT OR OTHERWISE FOR ANY SPECIAL, EXEMPLARY, INCIDENTAL OR CONSEQUENTIAL DAMAGES THAT RESULT FROM YOUR USE OF, OR THE INABILITY TO USE, ANY OF THE CONTENT OR ANY OF THE SERVICES, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN NO EVENT SHALL OUR TOTAL LIABILITY TO YOU FOR ALL DAMAGES, LOSSES AND CAUSES OF ACTION (WHETHER IN CONTRACT, TORT OR OTHERWISE) EXCEED THE AMOUNT PAID BY YOU, IF ANY, FOR ACCESSING THE SERVICES OR CONTENT OR, WITH RESPECT TO A CLAIM RELATING TO ANY ONE OR MORE PRODUCTS PURCHASED FROM US, THE PURCHASE PRICE OF THE PRODUCTS THAT GIVE RISE TO THE CLAIM. Some states do not allow the exclusion or limitation of incidental or consequential damages, so the foregoing limitation or exclusion may not apply to you.
+
+Version Date: 2014-07-27</string>
+                            <attributes>
+                                <font key="NSFont" size="12" name="Times-Roman"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GTg-2G-N9M">
+                    <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1up-fE-c52">
+                            <rect key="frame" x="254" y="7" width="51" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title="Accept">
+                                <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="acceptPushed:" destination="-1" eventType="touchUpInside" id="izj-fn-jw2"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEE-v8-B28">
+                            <rect key="frame" x="15" y="7" width="52" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Decline">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="declinePushed:" destination="-1" eventType="touchUpInside" id="fTf-0b-wKD"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="4yY-Rf-AM8"/>
+                        <constraint firstAttribute="width" constant="320" id="otV-3k-Kuw"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="GTg-2G-N9M" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="05H-pJ-1sP"/>
+                <constraint firstItem="Ytr-cP-iak" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Tpy-6G-VbV"/>
+                <constraint firstAttribute="bottom" secondItem="Ytr-cP-iak" secondAttribute="bottom" constant="44" id="ee2-an-gdt"/>
+                <constraint firstAttribute="bottom" secondItem="GTg-2G-N9M" secondAttribute="bottom" id="g9x-7U-J6K"/>
+                <constraint firstItem="Ytr-cP-iak" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hMl-ij-eSy"/>
+                <constraint firstAttribute="trailing" secondItem="Ytr-cP-iak" secondAttribute="trailing" id="jDm-ge-cpU"/>
+                <constraint firstAttribute="trailing" secondItem="GTg-2G-N9M" secondAttribute="trailing" id="k9e-4W-nTR"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

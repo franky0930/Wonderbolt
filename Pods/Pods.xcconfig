@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 ${inherited} NSLOGGER_BUILD_USERNAME="${USER}"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/JVFloatLabeledTextField" "${PODS_ROOT}/Headers/MRProgress" "${PODS_ROOT}/Headers/NSLogger" "${PODS_ROOT}/Headers/TestFlightSDK" "${PODS_ROOT}/Headers/UIDevice-Hardware"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/TestFlightSDK"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/AFNetworking" -isystem "${PODS_ROOT}/Headers/JVFloatLabeledTextField" -isystem "${PODS_ROOT}/Headers/MRProgress" -isystem "${PODS_ROOT}/Headers/NSLogger" -isystem "${PODS_ROOT}/Headers/TestFlightSDK" -isystem "${PODS_ROOT}/Headers/UIDevice-Hardware"
+OTHER_LDFLAGS = -ObjC -lTestFlight -lz -framework Accelerate -framework CFNetwork -framework CoreGraphics -framework Foundation -framework MobileCoreServices -framework QuartzCore -framework Security -framework SystemConfiguration -framework UIKit
+PODS_ROOT = ${SRCROOT}/Pods

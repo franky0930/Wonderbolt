@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iPhone1,1</key>
+	<integer>163</integer>
+	<key>iPhone1,2</key>
+	<integer>163</integer>
+	<key>iPhone2,1</key>
+	<integer>163</integer>
+	<key>iPhone3,1</key>
+	<integer>326</integer>
+	<key>iPhone3,2</key>
+	<integer>326</integer>
+	<key>iPhone3,3</key>
+	<integer>326</integer>
+	<key>iPhone4,1</key>
+	<integer>326</integer>
+	<key>iPhone5</key>
+	<integer>326</integer>
+	<key>iPhone5,1</key>
+	<integer>326</integer>
+	<key>iPhone5,2</key>
+	<integer>326</integer>
+	<key>iPhone5,3</key>
+	<integer>326</integer>
+	<key>iPhone5,4</key>
+	<integer>326</integer>
+	<key>iPhone6</key>
+	<integer>326</integer>
+	<key>i386</key>
+	<integer>163</integer>
+	<key>iPhone6,1</key>
+	<integer>326</integer>
+	<key>iPhone6,2</key>
+	<integer>326</integer>
+	<key>iPhone6,3</key>
+	<integer>326</integer>
+	<key>x86_64</key>
+	<integer>163</integer>
+	<key>iPhone7,1</key>
+	<integer>326</integer>
+	<key>iPhone7,2</key>
+	<integer>326</integer>
+</dict>
+</plist>
